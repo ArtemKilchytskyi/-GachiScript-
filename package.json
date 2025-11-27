@@ -1,0 +1,17 @@
+{
+  "name": "gachi-script",
+  "version": "0.0.1",
+  "description": "GachiScript language — a DSL that compiles to JavaScript",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "gachi": "./bin/gachi.js"
+  },
+  "keywords": [
+    "gachi",
+    "language",
+    "dsl",
+    "compiler"
+  ],
+  "license": "MIT"
+}
