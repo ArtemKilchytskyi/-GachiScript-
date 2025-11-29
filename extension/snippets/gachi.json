@@ -1,0 +1,17 @@
+{
+  "function": {
+    "prefix": "suction",
+    "body": ["suction ${1:name}(${2:args}) {", "  $0", "}"],
+    "description": "Функция"
+  },
+  "ifElse": {
+    "prefix": "fuck",
+    "body": ["fuck (${1:cond}) {", "  $2", "} semen {", "  $0", "}"],
+    "description": "if/else"
+  },
+  "forEach": {
+    "prefix": "hornyPullUps",
+    "body": ["${1:arr}.hornyPullUps((${2:item}) => {", "  $0", "});"],
+    "description": "forEach"
+  }
+}

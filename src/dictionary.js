@@ -26,9 +26,9 @@ export const dict = {
     suction: "function",
     fuckingCumming: "return",
     gym: "=>",
-    asWeCan: "try",
-    noWeCant: "catch",
-    ohEee: "finally",
+    celebrate: "try",
+    suckSomeDicks: "catch",
+    niceAss: "finally",
     fisting: "await",
     lube: "async",
   },
@@ -51,8 +51,6 @@ export const dict = {
     sorry: "console",
     forWhat: "log",
     fuckingError: "error",
-    ohShit: "console.war",
-
     ohShit: "warn",
     attention: "info",
     "-": "debug",
@@ -105,8 +103,8 @@ export const dict = {
     anal: "filter",
     suckSomeDick: "reduce",
     hornyPullUps: "forEach",
-    "-": "find",
     cum: "push",
+    "-": "find",
     "-": "pop",
     "-": "shift",
     "-": "unshift",
@@ -118,24 +116,18 @@ export const dict = {
   // -----------------------------
   modules: {
     penetrate: "import",
-    summonJabroni: "from",
+    into: "from",
     suck: "export",
     mainSqueeze: "export default",
     callDaddy: "require",
-    vaultCall: "module.require",
-    vault: "module,",
+    summonJabroni: "module.require",
+    vault: "module",
   },
 
   // -----------------------------
-  // 12. Прочее (очень популярное)
+  // 12. Прототипы
   // -----------------------------
-  misc: {
-    "-": "typeof",
-    "-": "instanceof",
-    "-": "in",
-    "-": "with",
-    "-": "void",
-    "-": "delete",
+  prototypes: {
     LeatherMan: "Math",
     Semen: "Array",
     AmazingSex: "Function",
@@ -156,5 +148,13 @@ export const dict = {
     beGentle: "set",
     fatCock: "constructor",
     stickFinger: "super",
+  },
+
+  // -----------------------------
+  // 14. Таймеры
+  // -----------------------------
+  timers: {
+    fuckWholeWeek: "setTimeout",
+    fuckPeriodically: "setInterval",
   },
 };

@@ -1,0 +1,66 @@
+{
+  "scopeName": "source.gachi",
+  "injectionSelector": "L:source.js",
+  "patterns": [
+    {
+      "name": "keyword.control.gachi",
+      "match": "\\b(fuck|semen|gayParty|gay|gayMaster|asWeCan|noWeCant|ohEee)\\b"
+    },
+    {
+      "name": "keyword.control.loop.gachi",
+      "match": "\\b(bondageGayWebsite|bondageLoop|hardStop|dontStop)\\b"
+    },
+    {
+      "name": "storage.type.gachi",
+      "match": "\\b(boy|jabroni|bigSurprise)\\b"
+    },
+    {
+      "name": "keyword.other.function.gachi",
+      "match": "\\b(suction|fuckingCumming|lube)\\b"
+    },
+    {
+      "name": "keyword.other.class.gachi",
+      "match": "\\b(ass|fucking|weewee|horny|suckSemen|beGentle|fatCock|stickFinger)\\b"
+    },
+    {
+      "name": "keyword.operator.gachi",
+      "match": "\\b(gym|fisting|fucking)\\b|=>|\\*\\*|==|===|!=|!=="
+    },
+    { "name": "support.class.console.gachi", "match": "\\b(sorry)(?=\\.)" },
+    {
+      "name": "support.function.console.gachi",
+      "match": "\\b(forWhat|fuckingError|ohShit|attention)\\b(?=\\()"
+    },
+    {
+      "name": "support.function.array.gachi",
+      "match": "\\b(latexGlove|anal|suckSomeDick|hornyPullUps|cum)\\b(?=\\()"
+    },
+    {
+      "name": "keyword.operator.module.gachi",
+      "match": "\\b(penetrate|summonJabroni|suck|mainSqueeze|callDaddy|vaultCall|vault)\\b"
+    },
+    { "name": "variable.language.gachi", "match": "\\b(slave)\\b" },
+    {
+      "name": "constant.language.gachi",
+      "match": "\\b(LeatherMan|Semen|AmazingSex|GachiWorld|DarkFantasy)\\b"
+    },
+    {
+      "name": "string.quoted.double.gachi",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [{ "include": "#escape" }]
+    },
+    {
+      "name": "string.quoted.single.gachi",
+      "begin": "'",
+      "end": "'",
+      "patterns": [{ "include": "#escape" }]
+    },
+    { "name": "constant.numeric.gachi", "match": "\\b\\d+(?:\\.\\d+)?\\b" }
+  ],
+  "repository": {
+    "escape": { "name": "constant.character.escape.gachi", "match": "\\\\." }
+  },
+  "name": "GachiScript",
+  "fileTypes": ["gachi"]
+}

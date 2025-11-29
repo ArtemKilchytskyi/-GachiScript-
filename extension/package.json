@@ -1,0 +1,44 @@
+{
+  "name": "gachi-script",
+  "displayName": "GachiScript",
+  "version": "0.0.1",
+  "publisher": "you",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onLanguage:gachi"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "language": "gachi",
+        "scopeName": "source.gachi",
+        "path": "./syntaxes/gachi.tmLanguage.json",
+        "injectTo": ["source.js"]
+      }
+    ],
+    "snippets": [
+      {
+        "language": "gachi",
+        "path": "./snippets/gachi.json"
+      }
+    ],
+    "languages": [
+      {
+        "id": "gachi",
+        "aliases": [
+          "GachiScript"
+        ],
+        "extensions": [
+          ".gachi"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ]
+  }
+}
