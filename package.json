@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "type": "module",
   "bin": {
-    "gachi": "./bin/gachi.js"
+    "gachi": "bin/gachi.js"
   },
   "keywords": [
     "gachi",
@@ -13,5 +13,20 @@
     "dsl",
     "compiler"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtemKilchytskyi/-GachiScript-.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ArtemKilchytskyi/-GachiScript-/issues"
+  },
+  "homepage": "https://github.com/ArtemKilchytskyi/-GachiScript-#readme"
 }

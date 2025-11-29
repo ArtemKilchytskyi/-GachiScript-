@@ -38,11 +38,10 @@ export const dict = {
   // -----------------------------
   loops: {
     bondageGayWebsite: "while",
-    boyNextDoor: "for",
-
-    "-": "do",
-    "-": "break",
+    bondageLoop: "for",
+    hardStop: "break",
     dontStop: "continue",
+    "-": "do",
   },
 
   // -----------------------------
@@ -54,8 +53,8 @@ export const dict = {
     fuckingError: "error",
     ohShit: "console.war",
 
-    attention: "warn",
-    "-": "info",
+    ohShit: "warn",
+    attention: "info",
     "-": "debug",
     "-": "trace",
     "-": "table",
@@ -119,17 +118,18 @@ export const dict = {
   // -----------------------------
   modules: {
     penetrate: "import",
+    summonJabroni: "from",
     suck: "export",
-    "-": "export default",
-    "-": "require",
+    mainSqueeze: "export default",
+    callDaddy: "require",
+    vaultCall: "module.require",
+    vault: "module,",
   },
 
   // -----------------------------
   // 12. Прочее (очень популярное)
   // -----------------------------
   misc: {
-    fucking: "new",
-    slave: "this",
     "-": "typeof",
     "-": "instanceof",
     "-": "in",
@@ -141,5 +141,20 @@ export const dict = {
     AmazingSex: "Function",
     GachiWorld: "Object",
     DarkFantasy: "Promise",
+  },
+
+  // -----------------------------
+  // 13. Классы
+  // -----------------------------
+  classes: {
+    ass: "class",
+    fucking: "new",
+    weewee: "extends",
+    slave: "this",
+    horny: "static",
+    suckSemen: "get",
+    beGentle: "set",
+    fatCock: "constructor",
+    stickFinger: "super",
   },
 };

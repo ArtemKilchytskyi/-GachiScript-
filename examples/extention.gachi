@@ -1,0 +1,22 @@
+ass GachiPerson {
+    fatCock(name, sm) {
+        slave._name = name;
+        slave._sm = sm;
+    }
+
+    suckSemen name () {
+        fuckingCumming slave._name
+    }
+    
+    suckSemen sm () {
+        fuckingCumming slave._sm
+    }
+
+    getInfo() {
+        return {name: slave._name, sm: slave._sm}
+    }
+}
+
+jabroni Van = fucking GachiPerson('Van', 19);
+jabroni data = Van.getInfo()
+sorry.forWhat(Van.name, data)
